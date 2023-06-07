@@ -6,7 +6,7 @@
         <title>Laravel</title>
 
         <!-- ico -->
-        <link rel="icon" type="image/x-icon" href="{{ url('fluxg.png') }}">
+        <link rel="icon" type="image/x-icon" href="{{ url('GA.png') }}">
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
