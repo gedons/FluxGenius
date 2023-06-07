@@ -4,25 +4,24 @@
       <div class="flex items-center justify-between h-16">
         <!-- Logo -->
         <div class="flex-shrink-0">
-          <a class="text-white font-bold text-xl" href="#">FluxGenius</a>
+          <a class="text-white font-bold text-xl" href="#">Gedoni Ani</a>
         </div>
 
         <!-- Navigation Links -->
         <div class="hidden md:block">
-          <div class="mx-auto flex items-baseline space-x-2 justify-center">
-            <a href="#" class="text-gray-300 hover:bg-indigo-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
-            <a href="#" class="text-gray-300 hover:bg-indigo-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Courses</a>
-            <a href="#" class="text-gray-300 hover:bg-indigo-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Pricing</a>
-            <a href="#" class="text-gray-300 hover:bg-indigo-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+          <div class="mx-auto flex items-baseline space-x-2">
+            <a href="#" class="text-gray-300 hover:bg-indigo-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Portfolio</a>
+            <a href="#" class="text-gray-300 hover:bg-indigo-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About Me</a>
+            <a href="#" class="text-gray-300 hover:bg-indigo-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>      
           </div>
         </div>
 
-        <div class="hidden md:block">
+        <!-- <div class="hidden md:block">
           <div class="flex items-center space-x-2">
             <a href="#" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Login</a>
             <a href="#" class="bg-indigo-500 text-white px-4 py-2 rounded-md text-sm font-medium">Get Started</a>
           </div>
-        </div>
+        </div> -->
 
         <!-- Mobile Menu Button (hambuger) -->
         <div class="-mr-2 flex md:hidden">
@@ -44,16 +43,16 @@
     <!-- Mobile Menu -->
     <div class="md:hidden" :class="{'block': isOpen, 'hidden': !isOpen}" id="mobile-menu">
       <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-        <a href="#" class="text-gray-300 hover:bg-indigo-500 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
-        <a href="#" class="text-gray-300 hover:bg-indigo-500 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Courses</a>
-        <a href="#" class="text-gray-300 hover:bg-indigo-500 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Pricing</a>
-        <a href="#" class="text-gray-300 hover:bg-indigo-500 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
+        <a href="#" class="text-gray-300 hover:bg-indigo-500 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Portfolio</a>
+        <a href="#" class="text-gray-300 hover:bg-indigo-500 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About Me</a>
+        <a href="#" class="text-gray-300 hover:bg-indigo-500 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+                
         
         <!-- Mobile Menu Login and Get Started Buttons -->
-        <div class="mt-4 flex items-center justify-center">
+        <!-- <div class="mt-4 flex items-center justify-center">
           <a href="#" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Login</a>
           <a href="#" class="bg-indigo-500 text-white px-4 py-2 rounded-md text-sm font-medium">Get Started</a>
-        </div>
+        </div> -->
       </div>
     </div>
   </nav>
@@ -69,10 +68,10 @@
               FluxGenius
             </div>
             <h2 class="text-3xl md:text-4xl font-extrabold mb-4">
-              Empowering Innovation, Amplifying <span class="text-indigo-600">Success</span>!
+              Hi, i'm Gedoni <span class="text-indigo-600">Ani</span>
             </h2>
             <h3 class="text-lg md:text-xl md:leading-relaxed font-medium text-gray-600">
-              Choose FluxGenius as your trusted digital partner and unlock the power of technology to elevate your online presence and exceed customer expectations.
+              I specialize in crafting exceptional user experiences through code. Welcome to my portfolio, where you are invited to explore my work and witness the magic I create.
             </h3>
           </div>
           <!-- END Heading -->
@@ -80,8 +79,8 @@
           <!-- Action -->
           <div>
             <a href="#" class="inline-flex justify-center items-center space-x-2 border font-semibold focus:outline-none px-6 py-4 leading-6 rounded border-blue-700 bg-indigo-700 text-white hover:text-white hover:bg-indigo-800 hover:border-blue-800 focus:ring focus:ring-blue-500 focus:ring-opacity-50 active:bg-blue-700 active:border-blue-700">
-              <svg stroke="currentColor" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="opacity-50 hi-outline hi-plus-circle inline-block w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-              <span>Get Started</span>
+              <!-- <svg stroke="currentColor" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="opacity-50 hi-outline hi-plus-circle inline-block w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> -->
+              <span>About Me</span>
             </a>
           </div>
           <!-- END Action -->
@@ -93,6 +92,75 @@
     </div>
   </header>
 
+    <!-- Portfolio Section: Simple -->
+    <div class="bg-white">
+      <div class="space-y-16 container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-4">
+        <!-- Heading -->
+        <div class="text-center">
+          <h2 class="text-3xl md:text-4xl font-extrabold mb-4">
+            Portfolio
+          </h2>
+        </div>
+        <!-- END Heading -->
+    
+        <!-- PORTFOLIO -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+          <div class="p-5 bg-white border-2 border-white shadow-sm hover:border-indigo-400 transition rounded-lg">
+            <!-- <svg stroke="currentColor" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="text-indigo-500 mb-5 hi-outline hi-template inline-block w-12 h-12"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"></path></svg> -->
+            <img :src="image1" style="height: 150px;">
+            <h4 class="text-lg font-bold mb-2">
+              Investment Platform
+            </h4>
+            <p class="leading-relaxed text-gray-600">
+              An Investment platform built with Vuejs, Laravel, Mysql
+            </p>
+            <a href="#" class="mt-2 inline-flex justify-center items-center space-x-2 border font-semibold focus:outline-none px-3 py-2 leading-6 rounded border-blue-700 bg-indigo-700 text-white hover:text-white hover:bg-indigo-800 hover:border-blue-800 focus:ring focus:ring-blue-500 focus:ring-opacity-50 active:bg-blue-700 active:border-blue-700">
+                <span>View</span>
+            </a>
+          </div>
+          <div class="p-5 bg-white border-2 border-white shadow-sm hover:border-indigo-400 transition rounded-lg">
+            <!-- <svg stroke="currentColor" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="text-indigo-500 mb-5 hi-outline hi-template inline-block w-12 h-12"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"></path></svg> -->
+            <img :src="image2" style="height: 150px;">
+            <h4 class="text-lg font-bold mb-2">
+              Eccommerce Website
+            </h4>
+            <p class="leading-relaxed text-gray-600">
+              An Eccommerce website built with Vuejs,Python, Django, Mysql
+            </p>
+            <a href="#" class="mt-2 inline-flex justify-center items-center space-x-2 border font-semibold focus:outline-none px-3 py-2 leading-6 rounded border-blue-700 bg-indigo-700 text-white hover:text-white hover:bg-indigo-800 hover:border-blue-800 focus:ring focus:ring-blue-500 focus:ring-opacity-50 active:bg-blue-700 active:border-blue-700">
+              <span>View</span>
+           </a>
+          </div>
+          <div class="p-5 bg-white border-2 border-white shadow-sm hover:border-indigo-400 transition rounded-lg">
+            <!-- <svg stroke="currentColor" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="text-indigo-500 mb-5 hi-outline hi-template inline-block w-12 h-12"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"></path></svg> -->
+            <img :src="image3" style="height: 150px;">
+            <h4 class="text-lg font-bold mb-2">
+              LMS
+            </h4>
+            <p class="leading-relaxed text-gray-600">
+              An Learning Management System platform built with Vuejs, Laravel, Mysql
+            </p>
+            <a href="#" class="mt-2 inline-flex justify-center items-center space-x-2 border font-semibold focus:outline-none px-3 py-2 leading-6 rounded border-blue-700 bg-indigo-700 text-white hover:text-white hover:bg-indigo-800 hover:border-blue-800 focus:ring focus:ring-blue-500 focus:ring-opacity-50 active:bg-blue-700 active:border-blue-700">
+              <span>View</span>
+           </a>
+          </div>
+
+        </div>
+        <!-- END Portfolio -->
+    
+        <!-- Link -->
+        <div class="text-center">
+          <a href="#" class="inline-flex justify-center items-center space-x-2 border font-semibold focus:outline-none px-3 py-2 leading-6 rounded border-gray-300 bg-white text-gray-800 shadow-sm hover:text-gray-800 hover:bg-gray-100 hover:border-gray-300 hover:shadow focus:ring focus:ring-gray-500 focus:ring-opacity-25 active:bg-white active:border-white active:shadow-none">
+            <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="opacity-50 hi-solid hi-external-link inline-block w-5 h-5"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg>
+            <span>Go to support center</span>
+          </a>
+        </div>
+        <!-- END Link -->
+      </div>
+    </div>
+    <!-- END FAQ Section: Simple -->
+ 
+
 </template>
 
 <script>
@@ -100,10 +168,19 @@ export default {
   data() {
     return {
       isOpen: false,
+      
     }
   },
- methods: {
-
+ computed: {
+    image1() {
+      return 'dx.png';
+    },
+    image2() {
+      return 'ju.png';
+    },
+    image3() {
+      return 'lk.png';
+    },
   },
 
 }
