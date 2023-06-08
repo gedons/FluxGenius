@@ -5,6 +5,7 @@
  */
 
 import './bootstrap';
+import router from './router'
 import { createApp } from 'vue';
 
 /**
@@ -14,6 +15,7 @@ import { createApp } from 'vue';
  */
 
 const app = createApp({});
+app.use(router); 
 
 import Index from './components/Index.vue';
 app.component('main-component', Index);

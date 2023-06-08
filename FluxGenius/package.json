@@ -23,6 +23,7 @@
     },
     "dependencies": {
         "laravel-mix-tailwind": "^0.1.2",
+        "vue-router": "^4.2.2",
         "vue-scrollto": "^2.20.0"
     }
 }
